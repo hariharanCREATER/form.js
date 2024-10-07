@@ -1,0 +1,49 @@
+
+
+.App {
+  background: linear-gradient(to bottom right, #011316, #4b4948); 
+  height: 200vh;
+  font-family: sans-serif;
+  text-align: center;
+
+}
+.App h2, h1 {
+  color: white;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+  height: 50px;
+
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 5px;
+  align-items: center;
+
+}
+
+input[type="radio"] {
+  transform: scale(0.7); 
+  margin-right: 0px; 
+}
+.radio-label {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.form :last-child{
+  width: 30%;
+  background-color: rgb(151, 167, 185);
+  transition: background-color 0.3s ease;
+
+}
+.form :last-child:hover {
+  background-color: rgb(94, 128, 160); 
+}
